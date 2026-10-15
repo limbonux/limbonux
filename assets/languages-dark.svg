@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="346" viewBox="0 0 900 346" role="img" aria-label="Languages I write">
+<style>
+  .in { opacity: 0; animation: up .7s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.1s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes grow { to { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { .in, .grow { animation: none; opacity: 1; transform: none; } }
+</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <clipPath id="r"><rect width="900" height="346" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+  <rect width="900" height="346" fill="#0b0b12"/>
+  <rect width="900" height="3" fill="url(#g)"/>
+</g>
+<rect x=".5" y=".5" width="899" height="345" rx="17.5" fill="none" stroke="#23233a"/>
+<text x="36" y="52" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7c6cff">LANGUAGES I WRITE</text>
+<text x="864" y="52" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#8b8ba3">34 languages · 58 repos</text>
+<clipPath id="bar"><rect x="36" y="82" width="828" height="14" rx="7"/></clipPath>
+<g clip-path="url(#bar)"><rect class="grow" style="animation-delay:0s" x="36.00" y="82" width="134.95" height="14" fill="#3178c6"/><rect class="grow" style="animation-delay:0.05s" x="170.95" y="82" width="133.06" height="14" fill="#f1e05a"/><rect class="grow" style="animation-delay:0.1s" x="304.02" y="82" width="116.49" height="14" fill="#00B4AB"/><rect class="grow" style="animation-delay:0.15000000000000002s" x="420.50" y="82" width="94.95" height="14" fill="#3572A5"/><rect class="grow" style="animation-delay:0.2s" x="515.45" y="82" width="80.52" height="14" fill="#663399"/><rect class="grow" style="animation-delay:0.25s" x="595.97" y="82" width="77.02" height="14" fill="#4F5D95"/><rect class="grow" style="animation-delay:0.30000000000000004s" x="672.98" y="82" width="69.34" height="14" fill="#e34c26"/><rect class="grow" style="animation-delay:0.35000000000000003s" x="742.32" y="82" width="55.79" height="14" fill="#f7523f"/><rect class="grow" style="animation-delay:0.4s" x="798.11" y="82" width="15.57" height="14" fill="#7355dd"/><rect class="grow" style="animation-delay:0.45s" x="813.68" y="82" width="14.66" height="14" fill="#DA5B0B"/><rect class="grow" style="animation-delay:0.5s" x="828.34" y="82" width="35.66" height="14" fill="#6e7681"/></g>
+<g class="in" style="animation-delay:0.3s">
+  <circle cx="43" cy="131" r="6" fill="#3178c6"/>
+  <text x="60" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">TypeScript</text>
+  <rect x="176" y="127" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.5s" x="176" y="127" width="164" height="6" rx="3" fill="#3178c6"/>
+  <text x="426" y="136" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">16.3%</text>
+</g>
+<g class="in" style="animation-delay:0.35s">
+  <circle cx="43" cy="165" r="6" fill="#f1e05a"/>
+  <text x="60" y="170" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">JavaScript</text>
+  <rect x="176" y="161" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.55s" x="176" y="161" width="161.70409974454597" height="6" rx="3" fill="#f1e05a"/>
+  <text x="426" y="170" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">16.1%</text>
+</g>
+<g class="in" style="animation-delay:0.4s">
+  <circle cx="43" cy="199" r="6" fill="#00B4AB"/>
+  <text x="60" y="204" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">Dart</text>
+  <rect x="176" y="195" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.6s" x="176" y="195" width="141.56061032065165" height="6" rx="3" fill="#00B4AB"/>
+  <text x="426" y="204" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">14.1%</text>
+</g>
+<g class="in" style="animation-delay:0.45s">
+  <circle cx="43" cy="233" r="6" fill="#3572A5"/>
+  <text x="60" y="238" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">Python</text>
+  <rect x="176" y="229" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.65s" x="176" y="229" width="115.38142192819917" height="6" rx="3" fill="#3572A5"/>
+  <text x="426" y="238" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">11.5%</text>
+</g>
+<g class="in" style="animation-delay:0.5s">
+  <circle cx="43" cy="267" r="6" fill="#663399"/>
+  <text x="60" y="272" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">CSS</text>
+  <rect x="176" y="263" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.7s" x="176" y="263" width="97.8461019035825" height="6" rx="3" fill="#663399"/>
+  <text x="426" y="272" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">9.7%</text>
+</g>
+<g class="in" style="animation-delay:0.55s">
+  <circle cx="43" cy="301" r="6" fill="#4F5D95"/>
+  <text x="60" y="306" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">PHP</text>
+  <rect x="176" y="297" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.75s" x="176" y="297" width="93.59178707814526" height="6" rx="3" fill="#4F5D95"/>
+  <text x="426" y="306" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">9.3%</text>
+</g>
+<g class="in" style="animation-delay:0.6000000000000001s">
+  <circle cx="457" cy="131" r="6" fill="#e34c26"/>
+  <text x="474" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">HTML</text>
+  <rect x="590" y="127" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.8s" x="590" y="127" width="84.26316878721956" height="6" rx="3" fill="#e34c26"/>
+  <text x="840" y="136" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">8.4%</text>
+</g>
+<g class="in" style="animation-delay:0.65s">
+  <circle cx="457" cy="165" r="6" fill="#f7523f"/>
+  <text x="474" y="170" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">Blade</text>
+  <rect x="590" y="161" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.8500000000000001s" x="590" y="161" width="67.79916236725865" height="6" rx="3" fill="#f7523f"/>
+  <text x="840" y="170" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">6.7%</text>
+</g>
+<g class="in" style="animation-delay:0.7s">
+  <circle cx="457" cy="199" r="6" fill="#7355dd"/>
+  <text x="474" y="204" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">C#</text>
+  <rect x="590" y="195" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.9s" x="590" y="195" width="18.924000740343427" height="6" rx="3" fill="#7355dd"/>
+  <text x="840" y="204" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">1.9%</text>
+</g>
+<g class="in" style="animation-delay:0.75s">
+  <circle cx="457" cy="233" r="6" fill="#DA5B0B"/>
+  <text x="474" y="238" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">Jupyter</text>
+  <rect x="590" y="229" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:0.95s" x="590" y="229" width="17.81676731906865" height="6" rx="3" fill="#DA5B0B"/>
+  <text x="840" y="238" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">1.8%</text>
+</g>
+<g class="in" style="animation-delay:0.8s">
+  <circle cx="457" cy="267" r="6" fill="#6e7681"/>
+  <text x="474" y="272" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f2f7">Other</text>
+  <rect x="590" y="263" width="164" height="6" rx="3" fill="#23233a"/>
+  <rect class="grow" style="animation-delay:1s" x="590" y="263" width="43.33024452292165" height="6" rx="3" fill="#6e7681"/>
+  <text x="840" y="272" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" fill="#8b8ba3">4.3%</text>
+</g>
+</svg>

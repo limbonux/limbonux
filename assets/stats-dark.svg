@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="474" viewBox="0 0 900 474" role="img" aria-label="GitHub in numbers">
+<style>
+  .in { opacity: 0; animation: up .7s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.1s cubic-bezier(.2,.7,.2,1) forwards; }
+  @keyframes grow { to { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { .in, .grow { animation: none; opacity: 1; transform: none; } }
+</style>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <clipPath id="r"><rect width="900" height="474" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+  <rect width="900" height="474" fill="#0b0b12"/>
+  <rect width="900" height="3" fill="url(#g)"/>
+</g>
+<rect x=".5" y=".5" width="899" height="473" rx="17.5" fill="none" stroke="#23233a"/>
+<text x="36" y="52" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7c6cff">GITHUB IN NUMBERS</text>
+<text x="864" y="52" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#8b8ba3">private work included</text>
+<g class="in" style="animation-delay:0s">
+  <rect x="36" y="80" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="56" y="112" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Contributions</text>
+  <text x="56" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">1,556</text>
+  <text x="56" y="180" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#7c6cff">since 2024</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+  <rect x="246.5" y="80" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="266.5" y="112" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Private contributions</text>
+  <text x="266.5" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">1,427</text>
+  <text x="266.5" y="180" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#22d3ee">client work, mostly</text>
+</g>
+<g class="in" style="animation-delay:0.16s">
+  <rect x="457" y="80" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="477" y="112" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Active days</text>
+  <text x="477" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">214</text>
+  <text x="477" y="180" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#7c6cff">with a contribution</text>
+</g>
+<g class="in" style="animation-delay:0.24s">
+  <rect x="667.5" y="80" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="687.5" y="112" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Longest streak</text>
+  <text x="687.5" y="156" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">20 days</text>
+  <text x="687.5" y="180" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#22d3ee">best day: 53</text>
+</g>
+<g class="in" style="animation-delay:0.32s">
+  <rect x="36" y="212" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="56" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Repositories</text>
+  <text x="56" y="288" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">58</text>
+  <text x="56" y="312" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#7c6cff">44 private</text>
+</g>
+<g class="in" style="animation-delay:0.4s">
+  <rect x="246.5" y="212" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="266.5" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Languages</text>
+  <text x="266.5" y="288" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">34</text>
+  <text x="266.5" y="312" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#22d3ee">across all repos</text>
+</g>
+<g class="in" style="animation-delay:0.48s">
+  <rect x="457" y="212" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="477" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Stars earned</text>
+  <text x="477" y="288" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">19</text>
+  <text x="477" y="312" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#7c6cff">33 followers</text>
+</g>
+<g class="in" style="animation-delay:0.56s">
+  <rect x="667.5" y="212" width="196.5" height="118" rx="12" fill="#12121c" stroke="#23233a"/>
+  <text x="687.5" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b8ba3">Best year</text>
+  <text x="687.5" y="288" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f2f7" letter-spacing="-1">2026</text>
+  <text x="687.5" y="312" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="11.5" fill="#22d3ee">1,195 contributions</text>
+</g>
+<g class="in" style="animation-delay:0.7s">
+  <text x="36" y="375" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#8b8ba3">2024</text>
+  <rect class="grow" style="animation-delay:0.8s" x="88" y="364" width="42.02845188284519" height="14" rx="7" fill="url(#g)"/>
+  <text x="864" y="375" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#f2f2f7">73</text>
+</g>
+<g class="in" style="animation-delay:0.7999999999999999s">
+  <text x="36" y="405" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#8b8ba3">2025</text>
+  <rect class="grow" style="animation-delay:0.9s" x="88" y="394" width="165.81087866108786" height="14" rx="7" fill="url(#g)"/>
+  <text x="864" y="405" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#f2f2f7">288</text>
+</g>
+<g class="in" style="animation-delay:0.8999999999999999s">
+  <text x="36" y="435" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#8b8ba3">2026</text>
+  <rect class="grow" style="animation-delay:1s" x="88" y="424" width="688" height="14" rx="7" fill="url(#g)"/>
+  <text x="864" y="435" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#f2f2f7">1,195</text>
+</g>
+</svg>
